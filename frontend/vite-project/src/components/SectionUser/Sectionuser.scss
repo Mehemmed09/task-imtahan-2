@@ -1,0 +1,39 @@
+.CustomersText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    p{
+        font-family: "Courgette", cursive;
+        font-weight: 400;
+        font-style: normal;
+        color: red;
+        font-size: 30px;
+    }
+    h3{
+        font-size: 50px;
+    }
+}
+.Customers{
+    margin-top: 20px;
+    height: 400px;
+
+}
+.CustomersPicture{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    img{
+        border-radius: 50%;
+        border: 7px solid red;
+        width: 130px;
+    }
+}
+.customerssay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

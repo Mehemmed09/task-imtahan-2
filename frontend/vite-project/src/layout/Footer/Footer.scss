@@ -1,0 +1,36 @@
+.Contact{
+ul{
+    color: white;
+font-family: Poppins;
+   display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10rem;
+        list-style: none;
+  font-size: 24px;
+    }
+}
+.components{
+    color: white;
+    ul{
+        gap: 20px;
+        list-style: none;
+    }
+}
+.Footer{
+    background-color: black;
+    height: 400px;
+}
+.picturesFooter{
+    width: 370px;
+    height: 270px;
+
+    display: block;
+    align-items: center;
+    gap: 30px;
+ margin-left: 1700px;
+    img{
+        width: 80px;
+        height: 80px;
+    }
+}

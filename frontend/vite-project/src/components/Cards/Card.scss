@@ -1,0 +1,35 @@
+.card{
+   overflow: hidden;
+    width: 18rem;
+    img{
+        width: 100%;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+          &:hover {
+              -webkit-transform: scale(1.05);
+              transform: scale(1.05);
+          }
+    }
+    h5{
+        &:hover{
+            color: red;
+            transition: .4s;
+            cursor: pointer;
+        }
+    }
+    button{
+        &:hover{
+            background-color: red;
+            color: white;
+            transition: .4s;
+        }
+    }
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
